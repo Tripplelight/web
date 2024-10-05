@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>Register form</title>
+    <style type="text/css">
+      p{
+        font-size: 30px;
+        background-color: blueviolet;
+        margin-top: 0px;
+        font-weight: bold;
+        color: rgb(255, 163, 163);
+        padding-bottom: 20px;
+      }
+      .form-filling{
+        font-size: 16px;
+        margin-top: 0px;
+        padding: 10px;
+        color: blueviolet;
+      }
+      button{
+        color: white;
+        background-color: orangered;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-style: solid;
+        border-color: white;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      button:hover{
+        opacity: 0.8;
+        text-decoration: underline;
+      }
+      button:active{
+        opacity: 0.6
+      }
+    </style>
+  </head>
+  <body>
+        <p> 
+          personal Information <br/>
+        </p>
+        <div class="form-filling">
+        <label for="name">First name</label><br/>
+        <input type="text" id="name" name="name"
+         required><br/>
+         <label for="name">Sur name</label><br/>
+         <input type="text" id="name" name="name" 
+         required><br/>
+          <label for="name">Middle name</label><br/>
+          <input type="text" id="name" name="name" 
+          optional><br/>
+          <label for="email">Email</label><br/>
+          <input type="text" id="name" email="gmail" 
+          placeholder="fakeguy@gmail.com"><br/>
+          <label for="password">password</label><br/>
+          <input type="text" id="password"
+           password="password"
+          placeholder="pfgh@#$139."><br/>
+          <label for="password"> Confirm password</label><br/>
+          <input type="text" id="password" 
+          password="password"placeholder="pfgh@#$139.">
+        </div>
+        <a href="Login.html">
+        <button> NEXT></button>
+        </a>
+      </body>
+</html>
